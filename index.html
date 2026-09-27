@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Fluxora — Technology Crafted for All</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Instrument Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="lib/lenis.css" />
+  <link rel="stylesheet" href="style.css?v=3.0" />
+</head>
+
+<body>
+  <!-- Fixed Fullscreen Canvas Background for Scroll Animation -->
+  <canvas id="sequence-canvas"></canvas>
+  <div class="canvas-vignette"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-text">Shivam's Portfolio</span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#features" class="nav-link">Skils</a>
+        <a href="#process" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Education</a>
+        <a href="#testimonials" class="nav-link">Experience/Achievements</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn-nav">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Scrollable Content Over Canvas Animation -->
+  <main id="content-wrapper">
+
+    <!-- 1. HERO SECTION -->
+    <section class="section hero-section" id="hero">
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1 class="hero-title">
+            Shivam Galar <br>
+            AI-ML Student <br>
+            Ai <span class="serif-italic">Web-Developer</span>
+          </h1>
+          <p class="hero-description">
+            "Computer Science student with specialization in AI and ML, Building AI-powered web applications, Generative
+            Ai, Ai Productivity and automation "
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="resume.jpg" download="Shivam_Galar_Resume.jpg" class="btn-primary">
+              <span>Resume</span>
+              <span class="btn-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+            <a href="https://github.com/shivamgalar" class="btn-secondary">
+              <span class="play-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3" />
+                </svg>
+              </span>
+              <span>Git-Hub</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics Cards -->
+          <div class="hero-metrics">
+            <div class="metric-card glass-card">
+              <span class="metric-num">150+</span>
+              <span class="metric-lbl">Projects Delivered</span>
+            </div>
+            <div class="metric-card glass-card accent-glass">
+              <span class="metric-num">98%</span>
+              <span class="metric-lbl">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right-space">
+          <!-- Clear visual space allowing 3D developer animation to shine -->
+        </div>
+      </div>
+
+      <div class="watermark-aim">AIM</div>
+
+      <!-- Partner Logos Strip -->
+      <div class="partner-strip">
+        <span class="partner-label">Skills</span>
+        <div class="partner-logos">
+          <div class="partner-item"><span class="partner-dot"></span>Ai tools Automation</div>
+          <div class="partner-item"><span class="partner-dot"></span>JavaScript</div>
+          <div class="partner-item"><span class="partner-dot"></span>Html&CSS</div>
+          <div class="partner-item"><span class="partner-dot"></span>Python</div>
+          <div class="partner-item"><span class="partner-dot"></span>Video Editing</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. MEET THE MINDS SECTION -->
+    <section class="section minds-section" id="about">
+      <div class="section-container">
+        <div class="minds-header">
+          <div class="minds-header-left">
+            <span class="badge-pill">• Who I AM </span>
+            <h2 class="section-title">Driven by Curiosity,<br>Meet The Mind Behind The Code</h2>
+          </div>
+          <div class="minds-header-right">
+            <p class="section-lead">
+             I am an AI-ML student and Web Developer focused on building clean, functional, and intelligent digital applications.
+            </p>
+            <div class="creators-row">
+              <div class="avatar-group">
+                <span class="avatar-chip">👩‍💻</span>
+                <span class="avatar-chip">👨‍🎨</span>
+                <span class="avatar-chip">🧑‍💼</span>
+              </div>
+              <span class="creators-text">Computer Science & AI Specialization</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="minds-grid">
+          <!-- Large Glass Showcase Card -->
+          <div class="minds-card-large glass-card">
+            <div class="card-glow-orb"></div>
+            <div class="card-inner-content">
+              <span class="tag-label">MY APPROACH</span>
+              <h3>Bridging modern web front-ends with intelligent AI models.</h3>
+              <p>I focus on writing clean JavaScript, building responsive UI layouts with HTML/CSS, and scripting utility tools in Python.</p>
+            </div>
+          </div>
+
+          <!-- Stats Cards -->
+          <div class="minds-stats-col">
+            <div class="stat-box glass-card">
+              <span class="stat-number">3+</span>
+              <span class="stat-text">Core Web & Python Projects Built</span>
+            </div>
+
+            <div class="stat-box glass-card orange-card">
+              <div class="stat-box-content">
+                <span class="stat-number">100%</span>
+                <span class="stat-text">Dedicated to Continuous Tech Growth</span>
+              </div>
+              <a href="#services" class="stat-card-link">Explore Work →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. BENTO GRID: DESIGN WITH PURPOSE -->
+    <section class="section bento-section" id="services">
+      <div class="section-container">
+        <div class="bento-header text-center">
+          <h2 class="section-title">Academic & Certification <br> </h2>
+          <p class="section-lead centered">
+            My formal education, ongoing degree, relevant certification, and academic milestone.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Bento 1: Human-Centered Experiences -->
+          <div class="bento-item bento-wide glass-card">
+            <div class="bento-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff6b35" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="bento-body">
+              <h3>Bachlore of Technology (2024-2028)</h3>
+              <p>Specializing in Artificial Intelligence and Machine Learning from sushila Devi Bansal College Of
+                Engineering INDORE </p>
+            </div>
+            <div class="bento-visual-tags">
+              <span class="tech-chip">Motion Design</span>
+              <span class="tech-chip">Accessibility</span>
+              <span class="tech-chip">Performance</span>
+            </div>
+          </div>
+
+          <!-- Bento 2: 160+ Projects -->
+          <div class="bento-item glass-card">
+            <div class="bento-number-header">
+              <span class="huge-number">7+</span>
+              <span class="badge-accent">RGPV</span>
+            </div>
+            <h3>CGPA </h3>
+            <p>Demonstrating consistent academic growth and increasing performance in every semester.</p>
+          </div>
+
+          <!-- Bento 3: Seamless Digital Integration -->
+          <div class="bento-item glass-card">
+            <div class="bento-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff6b35" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 12l2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3> Senior Secondary 12th (2024)</h3>
+            <p> New City Convent Higher secondary school, INDORE. <br> Physics, Chemistry, Mathematics </p> <br> </p>
+          </div>
+
+          <!-- Bento 4: Human-Centered Support -->
+          <div class="bento-item glass-card">
+            <div class="bento-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff6b35" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3>Secondary School 10th (2022) </h3>
+            <p>Maharishi Vidhya Mandir, <br>INDORE</br> </p>
+          </div>
+
+          <!-- Bento 5: CTA Block -->
+          <div class="bento-item bento-cta glass-card">
+            <h3>Licenses & Certifications</h3>
+            <p>
+            <ul>
+              <li>AI Tool workshop be10x </li>
+              <li>Deloitte Australia cyber Job simulation </li>
+              <li>Generative AI by Microsoft and linkedin </li>
+              <li>Cisco IOT and digital transformation </li>
+
+
+            </ul>
+            </p>
+            <a href="https://www.linkedin.com/in/shivam-galar-853475268/details/certifications/"
+              class="btn-primary btn-full">
+              <span>View Certificates</span>
+              <span class="btn-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROCESS SECTION: A SIMPLE WAY TO WORK -->
+    <section class="section process-section" id="process">
+      <div class="section-container">
+        <div class="process-header">
+          <div class="process-header-left">
+            <h2 class="section-title">Featured Projects &<br>Builds</h2>
+          </div>
+          <div class="process-header-right">
+            <p class="section-lead">
+              A showcase of web applications, interavtive tools, and python projects I have built. Many more in progress
+              and under development.
+            </p>
+          </div>
+        </div>
+
+        <div class="process-steps">
+          <!-- Step 1 -->
+          <div class="process-step-card glass-card">
+            <div class="step-num-col">
+              <span class="step-badge">01</span>
+            </div>
+            <div class="step-content-col">
+              <h3>AI Portfolio Website </h3>
+              <p>A high-performance, interactive developer portfolio built to showcase personal projects, technical
+                skills, and background. Developed using HTML5, CSS3, and JavaScript, the application integrates smooth
+                scrolling, dynamic navigation, and responsive 3D visual components using Three.js. The project focuses
+                on clean design principles, mobile responsiveness, and an engaging user experience that bridges web
+                development with modern AI aesthetics.</p>
+              <div class="step-tags">
+                <span class="step-tag">HTML5&CSS3</span>
+                <span class="step-tag">Javascript</span>
+                <span class="step-tag">Three.js</span>
+                <span class="step-tag">lenis smooth scroll</span>
+                <span class="step-tag">Node.js</span>
+                <span class="step-tag">Antigravity IDE</span>
+                <span class="step-tag">Google flow</span>
+                <span class="step-tag">Nano Banana pro</span>
+              </div>
+            </div>
+            <div class="step-preview-col">
+              <div class="step-mini-card">
+                <span class="step-dot active"></span>
+                <span>Web App & 3D</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step-card glass-card">
+            <div class="step-num-col">
+              <span class="step-badge">02</span>
+            </div>
+            <div class="step-content-col">
+              <h3>Shopping Cart System</h3>
+              <p>A functional front-end Shopping Cart Application built with HTML5, CSS3, and JavaScript. The system
+                dynamically renders a product catalog from JavaScript object arrays into interactive UI cards. It
+                utilizes DOM manipulation techniques to append product markup, display pricing info, and trigger
+                real-time client-side item updates via dynamic event handlers. Styled using CSS Flexbox, the project
+                showcases clean code modularity, UI layout principles, and state management basics</p>
+              <div class="step-tags">
+                <span class="step-tag">HTML5</span>
+                <span class="step-tag">CSS3</span>
+                <span class="step-tag">JavaScript</span>
+                <span class="step-tag">DOM Manipulation</span>
+
+              </div>
+            </div>
+            <div class="step-preview-col">
+              <div class="step-mini-card">
+                <span class="step-dot active"></span>
+                <span>E-Commerce </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step-card glass-card">
+            <div class="step-num-col">
+              <span class="step-badge">03</span>
+            </div>
+            <div class="step-content-col">
+              <h3>Electricity Monitoring Tool</h3>
+              <p>Electricity Consumption Monitoring Tool is a Python-based desktop application developed using Python
+                and Tkinter to monitor electricity consumption and calculate electricity bills. The application takes
+                previous and current meter readings, calculates the units consumed and total bill based on a fixed
+                electricity rate, validates the entered data, and stores consumption records in a CSV file for future
+                reference.
+              </p>
+              <div class="step-tags">
+                <span class="step-tag">Python</span>
+                <span class="step-tag">Tkinter</span>
+                <span class="step-tag">Data Validation</span>
+                <span class="step-tag">CSV Integration</span>
+              </div>
+            </div>
+            <div class="step-preview-col">
+              <div class="step-mini-card">
+                <span class="step-dot active"></span>
+                <span>Python Utility Tool</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FEATURES SECTION: YOUR SUCCESS, SUPPORTED -->
+    <section class="section supported-section" id="features">
+      <div class="section-container">
+        <div class="supported-header">
+          <div class="supported-header-left">
+            <h2 class="section-title">Technical &,<br>Creative Skills</h2>
+          </div>
+          <div class="supported-header-right">
+            <p class="section-lead">
+              "Continously expanding my skill set across web technologies, artificial intelligence, and media creation."
+            </p>
+          </div>
+        </div>
+
+        <div class="supported-grid">
+          <!-- Card 1 -->
+          <div class="supported-card glass-card">
+            <div class="card-icon-header">
+              <span class="status-indicator"></span>
+              <span>Web Development</span>
+            </div>
+            <h3>JavaScript,HTML,CSS</h3>
+            <p>Core web development stack for responsive interface and interactive front-end applications.</p>
+            <div class="support-check-list">
+              <div class="check-item">✓ frontend development </div>
+              <div class="check-item">✓ learner</div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="supported-card glass-card">
+            <div class="card-icon-header">
+              <span class="status-indicator"></span>
+              <span>Ai and Automation</span>
+            </div>
+            <h3>Python, GenAI, Automation</h3>
+            <p>Building intelligence models, leveraging generative AI, APIs, and scripting workflow automations.
+            </p>
+            <div class="asset-pills">
+              <span class="asset-pill">OpenAI API</span>
+              <span class="asset-pill">Langchain</span>
+              <!-- <span class="asset-pill">Component Lib</span>-->
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="supported-card glass-card">
+            <div class="card-icon-header">
+              <span class="status-indicator"></span>
+              <span>Creative & Media </span>
+            </div>
+            <h3>Video Editing </h3>
+            <p>Video Creation, post-production, and editing services.</p>
+            <div class="circular-metric-box">
+              <div class="circle-dial">
+                <span class="dial-val">80%</span>
+                <span class="dial-lbl"> Satisfaction</span>
+              </div>
+              <ul class="mini-checklist">
+                <li>Premiere pro/Capcut/Davinci Resolve</li>
+                <li>Motion Graphics & Transitions</li>
+                <li>Social Media Management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. TESTIMONIALS SECTION -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="section-container">
+        <div class="testimonials-header text-center">
+          <h2 class="section-title">Experience & key </h2>
+          <p class="section-lead centered">
+            A timeline of my practical work experience, job simulations, workshops, and technical milestones.
+          </p>
+        </div>
+
+        <div class="testimonial-card glass-card">
+
+          <div class="testimonial-content">
+            <p>
+            <h2>AI Tools & GenAI Mastery Workshop :</h2> <br>
+            <h3>Be10x,Microsoft & Linkedin </h3> <br>
+
+            Hands-on training with Generative AI tools, prompt engineering, automated workflows, and productivity
+            enhancement.
+            </p>
+
+
+
+          </div>
+        </div>
+        <br>
+
+        <div class="testimonial-card glass-card">
+
+          <div class="testimonial-content">
+            <p>
+            <h2> Social Media Manager & Freelance Video Editor :</h2> <br>
+            <h3>Instagram page, Youtube videos </h3> <br>
+
+            Managed end-to-end page growth, post scheduling, visual branding, and audience interaction.
+
+
+            Optimized content strategy to consistently boost engagement and page reach.
+            </p>
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. CTA SECTION WITH GLOWING NEON ARC -->
+    <section class="section cta-section" id="contact">
+      <div class="cta-glow-container">
+        <!-- Curved Glowing Neon Arc from Reference Image -->
+        <div class="neon-arc-wrapper">
+          <svg class="neon-arc-svg" viewBox="0 0 1200 400" preserveAspectRatio="none">
+            <path d="M 0 380 Q 600 -120 1200 380" fill="none" stroke="url(#arcGlow)" stroke-width="3" />
+            <path d="M 0 380 Q 600 -120 1200 380" fill="none" stroke="#ff7a3d" stroke-width="1.5" />
+            <defs>
+              <linearGradient id="arcGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="rgba(255, 107, 53, 0)" />
+                <stop offset="20%" stop-color="rgba(255, 107, 53, 0.8)" />
+                <stop offset="50%" stop-color="#ff9d66" />
+                <stop offset="80%" stop-color="rgba(255, 107, 53, 0.8)" />
+                <stop offset="100%" stop-color="rgba(255, 107, 53, 0)" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="arc-ambient-blur"></div>
+        </div>
+
+        <div class="cta-inner-content">
+          <h2 class="cta-title">
+            Let's work Together  <br>
+            Let's Connect & Collaborate
+          </h2>
+          <p class="cta-description">
+            Whether you have a project idea, internship opportunity, or just want to connect, feel free to reach out!
+          </p>
+          <div class="cta-btn-wrap">
+            <a href="mailto:shivamgalar15@gmail.com" class="btn-primary btn-large">
+              <span>Contact Me </span>
+              <span class="btn-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand-col">
+            <a href="#" class="brand-logo">
+              
+              <span class="logo-text">Shivam Galar</span>
+            </a>
+            <p class="footer-desc">
+            "AI & ML Student & Web Developer building intelligent, interactive web applications."
+            </p>
+            <a href="#contact" class="btn-primary btn-sm">
+              <span>Get started</span>
+              <span class="btn-arrow-circle">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <div class="footer-links-grid">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Academic </a></li>
+                <li><a href="#process">Projects</a></li>
+                <li><a href="#testimonials">Experience </a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Social</h4>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/shivam-galar?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://github.com/shivamgalar" target="_blank" rel="noopener">Github</a></li>
+               
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="mailto:hello@fluxora.studio">shivamgalar15@gmail.com</a></li>
+                <li><span>Indore , Madhya Pradesh , India</span></li>
+                 <li><span>Mobile - 8815551691</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Made by Shivam Galar </p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="lib/lenis.min.js"></script>
+  <script src="main.js?v=3.0"></script>
+</body>
+
+</html>
